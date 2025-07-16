@@ -13,9 +13,9 @@ int main()
 		std::cout << "type a:";
 		std::cin>>a;
 	
-		std::cout << "a+b = ";
-		std::cout << a+b << "\n";
-		std::cout << "type -1 to exit";
+		std::cout << "2*(a+b) = ";
+		std::cout << 2*(a+b) << "\n";
+		std::cout << "type -1 to exit\ntype any key to continue\n";
 		std::cin >> i;	
 	}
 	return 0;
